@@ -131,7 +131,17 @@ ModelImporter:
     7400000: Run_Eqip
     9500000: //RootNode
     13700000: Blueisland
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blueisland_Character_Mat1
+    second: {fileID: 2100000, guid: 9049b9201173d354f8b82398487905b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blueisland_Character_Mat2
+    second: {fileID: 2100000, guid: fe208080a7b0e6543b1f7de8ad19242c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -181,7 +191,59 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: Runspeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.0005187988
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3318349
+            value: -0.018843459
+            inSlope: -0.19376618
+            outSlope: -0.19376618
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.11342544
+            outWeight: 0.18798138
+          - serializedVersion: 3
+            time: 0.4986925
+            value: -0.033619873
+            inSlope: -0.008253621
+            outSlope: -0.008253621
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.08243731
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.6973589
+            value: -0.013737295
+            inSlope: 0.09723587
+            outSlope: 0.09723587
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.0005187988
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 4
       events: []
       transformMask:
       - path: 
